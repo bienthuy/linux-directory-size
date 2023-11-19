@@ -1,12 +1,15 @@
 <?php
-/* Check size and list all files and directory with its size
-* Shared by BienThuy.Com
-*  https://bienthuy.com/download/ma-nguon/tao-he-thong-vote-giong-youtube/
-* Facebook: https://www.facebook.com/bienthuywebsite
-* Twitter: https://www.twitter.com/bienthuywebsite
-* Youtube : https://www.youtube.com/bienthuywebsite
-* Pinterest: https://www.pinterest.com/bienthuywebsite
-* @ 2023. All Rights Reserved.
+/* 
+ * check directory size linux
+ * how to check directory size in linux: Check size and list all files and directory with its size
+ * Shared by BienThuy.Com
+ * https://bienthuy.com/download/ma-nguon/tao-he-thong-vote-giong-youtube/
+ * Facebook: https://www.facebook.com/bienthuywebsite
+ * Twitter: https://www.twitter.com/bienthuywebsite
+ * Youtube : https://www.youtube.com/bienthuywebsite
+ * Pinterest: https://www.pinterest.com/bienthuywebsite
+ * @ 2023. All Rights Reserved.
+ * PHP rewuired: >= 7.x, PHP 8.x recommended
 */
 $f = $_SERVER['DOCUMENT_ROOT']; 
 function listFolderFiles($dir){
